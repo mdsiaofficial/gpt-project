@@ -6,6 +6,115 @@
 }
 
 body{
-  background: var(--color-bg);
-  color: var(--color-text);
+  background: var(--bgclr);
 }
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+.gradient__bg{
+    /* global 94%+ browsers support */
+    background: linear-gradient(120deg, rgba(18, 18, 42, 1) 0%, rgba(52, 100, 126, 1) 50%, rgba(33, 35, 84, 1) 100%);
+}
+
+.gradient__text{
+  background-color: var(--gradtext);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__padding: {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 4rem;
+}
+
+
+ /* * ----------------------------------------
+ * animation flip-horizontal-bottom
+ * ---------------------------------------- */
+.flip-horizontal-bottom {
+	-webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+	        animation: flip-horizontal-bottom 0.4s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+}
+
+ @-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+ /* * ----------------------------------------
+ * animation flip-horizontal-bottom
+ * ---------------------------------------- */
+
+
+/* * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------*/
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/* * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------*/
+
+
+ @media screen and (max-width: 700px) {
+  .section__padding{
+    padding: 4rem;
+  }
+  .section__margin{
+    margin: 4rem;
+  }
+ }
+
+ @media screen and (max-width: 550px) {
+  .section__padding{
+    padding: 4rem 2rem;
+  }
+  .section__margin{
+    margin: 4rem 2rem;
+  }
+ }

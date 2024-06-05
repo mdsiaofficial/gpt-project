@@ -4,7 +4,7 @@ import "./article.css";
 const Article = () => {
   return (
     <div>
-      <h1>Brand</h1>
+      <h1>Article</h1>
     </div>
   )
 }
