@@ -4,7 +4,12 @@ import "./cta.css";
 const CTA = () => {
   return (
     <div>
-      <h1>CTA</h1>
+      <div className="gpt_cta">
+        <div className="gpt_cta_content">
+          <p>Requsted Early Access to Get Started</p>
+          <h3>Register today & Start Exploring...</h3>
+        </div>
+      </div>
     </div>
   )
 }

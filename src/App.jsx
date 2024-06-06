@@ -24,7 +24,7 @@ function App() {
       <GPTfeature />
       <Features />
       <Possibility />
-      {/* <CTA /> */}
+      <CTA />
       {/* <Blog /> */}
       {/* <Feature /> */}
       {/* <Footer /> */}
