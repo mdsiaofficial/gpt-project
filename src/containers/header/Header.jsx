@@ -14,7 +14,7 @@ const Header = () => {
 
           <div className="header_content_input">
             <input type="email" placeholder='Your email' />
-            <button type='button'>Get Status</button>
+            <button type='button'>Get Started</button>
           </div>
 
           <div className="header_content_people">
@@ -22,9 +22,9 @@ const Header = () => {
             <p>1,500 people requested access...</p>
           </div>
 
-          <div className="header_img">
-            <img src={ai} alt="" />
-          </div>
+        </div>
+        <div className="header_img">
+          <img src={ai} alt="" />
         </div>
       </div>
     </div>
