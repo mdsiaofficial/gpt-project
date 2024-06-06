@@ -2,7 +2,7 @@
 .gptfeat {
   display: flex;
   flex-direction: column;
-
+  margin: 0 11rem;
   padding: 2rem;
   background-color: var(--footer);
 /* 
@@ -41,7 +41,7 @@
   line-height: 45px;
   font-weight: 800;
   max-width: 510px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 .feat_heading p{
@@ -50,7 +50,7 @@
   font-weight: 800;
   max-width: 510px;
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 .gpt_feat_container{
@@ -61,40 +61,43 @@
 }
 
 @media screen and (max-width: 850px) {
-  .feat_heading {
-      flex-direction: column;
-      align-items: flex-start;
-      margin-bottom: 0rem;
+  .gptfeat{
+    flex-direction: column;
+    padding: 0 3rem;
+    margin: 0 3rem;
   }
 
-  .feat_heading p {
-      margin-top: 1rem;
+  .feat_heading{
+    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .gptfeat
-  .gpt_feat_container{
+  .gptfeat{
     flex-direction: column;
+    padding: 0 3rem;
+    margin: 0 3rem;
   }
 
-  .gptfeat
-  .gpt_feat_container_text{
-    margin-top: 0.5rem;
-  }
-
-  .feat_heading h1{
-    font-size: 28px;
-    line-height: 40px;
+  .feat_heading{
+    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 350px) {
 
-  .gpt_feat_container{
-    margin: 1rem 0;
-    min-width: 100%;
+  .gptfeat{
+    flex-direction: column;
+    padding: 0 2rem;
+    margin: 0 2rem;
   }
 
+  .feat_heading{
+    flex-direction: column;
+  }
+
+  .feat_heading p{
+    margin-top: 3rem;
+  }
   
 }

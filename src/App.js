@@ -21,7 +21,7 @@ const App = () => {
       {/* <Article /> */}
       <What />
       <GPTfeature />
-      {/* <Features /> */}
+      <Features />
       {/* <Possibility /> */}
       {/* <CTA /> */}
       {/* <Blog /> */}

@@ -5,9 +5,8 @@ import { Feature } from '../../components';
 const GPTfeature = () => {
   return (
     <div>
-      <div className="gptfeat section_feat" id='gptfeat'>
+      <div className="gptfeat section_feat mt-10 mb-10" id='gptfeat'>
         <div className="fetures">
-          <Feature />
         </div>
 
         <div className="feat_heading">
@@ -16,11 +15,9 @@ const GPTfeature = () => {
           </h1>
           <p>Explore the Library</p>
         </div>
+
         <div className="gpt_feat_container">
 
-          <Feature />
-          <Feature />
-          <Feature />
         </div>
       </div>
     </div>
