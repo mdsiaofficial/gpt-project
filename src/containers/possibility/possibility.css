@@ -1,0 +1,97 @@
+.gpt_possibility{
+  display: flex;
+  flex-direction: row;
+  margin: 0 10rem;
+}
+
+.gpt_possibility_img{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.gpt_possibility_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.gpt_possibility_content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.gpt_possibility_content h4{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: aqua;
+  
+  margin: 1rem 0;
+}
+
+.gpt_possibility_content h4:last-child{
+  color: crimson;
+}
+.gpt_possibility_content h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  margin: 1rem 0;
+
+}
+
+.gpt_possibility_content p{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: aqua;
+
+  margin-bottom: 2rem;
+  
+}
+
+
+@media screen and (max-width: 850px) {
+  .gpt_possibility{
+    flex-direction: column;
+  }
+
+  .gpt_possibility_img{
+    margin: 1rem 0;
+  }
+
+  .gpt_possibility_content{
+    margin-top: 2rem;
+  }
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+  .gpt_possibility{
+    flex-direction: column;
+    padding: 0 2rem;
+    margin: 0 2rem;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+
+  .gpt_possibility{
+    flex-direction: column;
+    padding: 0 2rem;
+    margin: 0 2rem;
+  }
+
+  
+}

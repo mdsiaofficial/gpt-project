@@ -23,7 +23,7 @@ function App() {
       <What />
       <GPTfeature />
       <Features />
-      {/* <Possibility /> */}
+      <Possibility />
       {/* <CTA /> */}
       {/* <Blog /> */}
       {/* <Feature /> */}
