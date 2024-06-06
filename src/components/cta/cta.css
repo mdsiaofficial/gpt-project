@@ -1,0 +1,103 @@
+.gpt_cta {
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 10rem;
+  border-radius: 10px;
+  background: var(--gradbar);
+}
+.gpt_cta_content p{
+  font-size: 1rem;
+  margin: 5px 0;
+}
+.gpt_cta_content h3{
+  font-size: 3rem;
+  
+  margin: 5px 0;
+}
+.cta_input {
+  min-height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  background-color: var(--footer);
+  border: 20px solid var(--footer);
+  border-radius: 10px;
+  padding: 0 1rem;
+  outline: none;
+  color: white;
+  
+  margin: 5px 0;
+}
+
+
+@media screen and (max-width: 850px) {
+
+  .gpt_cta {
+    
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  .gpt_cta_content h3{
+    font-size: 36px;
+  }
+  .gpt_cta_content p{
+    font-size: 14px;
+  }
+  
+  .cta_input {
+    font-size: 16px;
+    border: 10px solid var(--footer);
+  }
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+  .gpt_cta {
+    
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  .gpt_cta_content h3{
+    font-size: 28px;
+  }
+  .gpt_cta_content p{
+    font-size: 14px;
+  }
+  
+  .cta_input {
+    font-size: 16px;
+    border: 10px solid var(--footer);
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+
+  .gpt_cta {
+    
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  .gpt_cta_content h3{
+    font-size: 18px;
+  }
+  .gpt_cta_content p{
+    font-size: 14px;
+  }
+  
+  .cta_input {
+    font-size: 16px;
+    border: 10px solid var(--footer);
+  }
+}
