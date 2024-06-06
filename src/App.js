@@ -6,7 +6,7 @@ import React from 'react';
 // import Navbar from "./components/navbar/Navbar";
 
 import { Article, Brand, CTA, Feature, Navbar } from './components';
-import { Blog, Features, Footer, Header, Possibility, What } from './containers';
+import { Blog, Features, Footer, Header, Possibility, What, GPTfeature } from './containers';
 import './App.css';
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
       <Brand />
       {/* <Article /> */}
       <What />
+      <GPTfeature />
       {/* <Features /> */}
       {/* <Possibility /> */}
       {/* <CTA /> */}
