@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
-
 :root{
-  --fontfa: "Manrope", sans-serif;
+  --fontfa: sans-serif;
   --gradtext: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   
   --gradbar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);

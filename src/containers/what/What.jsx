@@ -10,7 +10,7 @@ const What = () => {
             <p></p>
             <h1 className='text-subtext text-xl md:text-4xl'>What is GPT?</h1>
           </div>
-          <p className='text-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam porro similique illum voluptate quia natus, autem recusandae incidunt voluptas quod accusantium neque vel ducimus cumque, expedita tempore quos, soluta nulla.</p>
+          <p className='text-text text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam porro similique illum voluptate quia natus, autem recusandae incidunt voluptas quod accusantium neque vel ducimus cumque, expedita tempore quos, soluta nulla.</p>
 
         </div>
 

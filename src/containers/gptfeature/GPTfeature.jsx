@@ -10,15 +10,15 @@ const GPTfeature = () => {
         </div>
 
         <div className="feat_heading">
-          <h1 className="title_text">
+          <h1 className="title_text ">
           The Possibilities of GPT
           </h1>
-          <p>Explore the Library</p>
+          <div className="gpt_feat_container">
+            <p>Explore the Library</p>
+            <button>Get Started</button>
+          </div>
         </div>
 
-        <div className="gpt_feat_container">
-
-        </div>
       </div>
     </div>
   )
