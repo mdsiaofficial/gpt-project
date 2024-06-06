@@ -1,3 +1,4 @@
+import './App.css'
 import React from 'react';
 // import Article from "./components/article/Article";
 // import Brand from "./components/brand/Brand";
@@ -7,9 +8,9 @@ import React from 'react';
 
 import { Article, Brand, CTA, Feature, Navbar } from './components';
 import { Blog, Features, Footer, Header, Possibility, What, GPTfeature } from './containers';
-import './App.css';
 
-const App = () => {
+function App() {
+
   return (
     <div className='App'>
       <div className='gradient__bg'>
