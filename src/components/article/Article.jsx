@@ -4,11 +4,7 @@ import "./article.css";
 const Article = () => {
   return (
     <div>
-      <div className="blog_article">
-        <div className="article_img">
-          
-        </div>
-      </div>
+      <h1>Article</h1>
     </div>
   )
 }

@@ -25,7 +25,7 @@ function App() {
       <Features />
       <Possibility />
       <CTA />
-      <Blog />
+      {/* <Blog /> */}
       {/* <Feature /> */}
       {/* <Footer /> */}
 
