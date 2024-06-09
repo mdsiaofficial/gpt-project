@@ -27,7 +27,7 @@ function App() {
       <CTA />
       {/* <Blog /> */}
       {/* <Feature /> */}
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
   )

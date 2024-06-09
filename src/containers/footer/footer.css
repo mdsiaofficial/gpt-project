@@ -1,0 +1,125 @@
+.gpt_footer{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  background-color: var(--footer);
+}
+
+.footer_heading{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.footer_heading h1{
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.footer_btn button {
+  /* transform: matrix(-1, 0,0,1,0,0); */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  line-height: 27px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  outline: none;
+  /* color: crimson; */
+  color: white;
+  cursor: pointer;
+}
+
+.footer_btn p{
+  font-size: 18px;
+  font-family: var(--fontfa);
+  line-height: 21px;
+  color: azure;
+  word-spacing: 2px;
+}
+
+.footer_links{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.footer_links div{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.footer_links_logo img{
+  width: 118px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.footer_links_logo p{
+  margin-top: 10px;
+  color: aliceblue;
+}
+
+.footer_links_div a{
+  color: azure;
+
+}
+
+.footer_links_div h4{
+  color: crimson;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 1rem;
+}
+
+.footer_cr{
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.footer_cr p{
+  color: aliceblue;
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3__footer-heading h1 {
+      font-size: 44px;
+      line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer_heading h1 {
+      font-size: 34px;
+      line-height: 42px;
+  }
+
+  .footer-links div {
+      margin: 1rem 0;
+  }
+
+  .footer_btn p {
+      font-size: 14px;
+      line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer_heading h1 {
+      font-size: 27px;
+      line-height: 38px;
+  }
+}
