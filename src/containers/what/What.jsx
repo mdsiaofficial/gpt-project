@@ -3,7 +3,7 @@ import "./what.css";
 
 const What = () => {
   return (
-    <div className="flex justify-center py-10">
+    <div className="flex justify-center py-10" id='what'>
       <div className='bg-blue-900 p-2 md:p-7 py-10 w-[80%]'>
         <div className="title p-4 flex flex-col md:flex-row justify-center ">
           <div className="lineline w-[100%] md:w-[50%]">

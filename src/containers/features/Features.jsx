@@ -24,7 +24,7 @@ const featuresData = [
 const Features = () => {
   return (
     <div>
-      <div className="gpt_features section_padding mt-10 mb-10">
+      <div className="gpt_features section_padding mt-10 mb-10" id='features'>
         {/*  */}
         <div className="gpt_features_heading">
           <h1 className="title_text">
